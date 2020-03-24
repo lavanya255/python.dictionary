@@ -1,0 +1,8 @@
+def Convert(tup, di): 
+    for a, b in tup: 
+        di.setdefault(a, []).append(b) 
+    return di 
+tups = [("a", 10), ("b", 12), ("c, 14),  
+     ("d", 20), ("e", 25), ("f", 30)] 
+dictionary = {} 
+print (Convert(tups, dictionary)) 
