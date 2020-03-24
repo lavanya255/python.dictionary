@@ -1,0 +1,7 @@
+defd = collections.defaultdict(lambda : 'Key Not found')  
+defd['a'] = 1
+defd['b'] = 2
+print ("The value associated with 'a' is : ",end="") 
+print (defd['a'])  
+print ("The value associated with 'c' is : ",end="") 
+print (defd['c']) 
