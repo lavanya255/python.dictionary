@@ -1,0 +1,7 @@
+test_dict = {"a" : 22, "b" : 21, "c" : 21, "d" : 21} 
+   
+print ("The dictionary before performing remove is : " + str(test_dict)) 
+del test_dict['c'] 
+  
+print ("The dictionary after remove is : " + str(test_dict))
+del test_dict['Manjeet'] 
